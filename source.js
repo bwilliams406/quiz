@@ -8,7 +8,8 @@ var qbank=new Array;
 loadDB();
 
 function loadDB(){
- $.getJSON("activity.json", function(data) {
+    // link json here
+ $.getJSON("https://raw.githubusercontent.com/bwilliams406/quiz/main/activity.json", function(data) {
   for(i=0;i<data.questionlist.length;i++){
    qbank[i]=[];
    qbank[i][0]=data.questionlist[i].cardfront;

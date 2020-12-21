@@ -6,8 +6,7 @@ padding: 0;
 user-select: none;
 }
 @font-face {
-font-family: Montserrat;
-src: url('Montserrat-Medium.ttf');
+font-family: 'Times New Roman', Times, serif;
 }
 #activityTitle{
 text-align:center;
@@ -15,8 +14,14 @@ font-size:38px;
 font-family:Montserrat,Arial;
 margin-top:50px;
 }
+#howto{
+text-align:center;
+font-size:25px;
+font-family:Montserrat,Arial;
+margin-top:50px;
+}
 #cardArea{
-width:300px;
+width:800px;
 height:200px;
 margin:auto;
 margin-top:80px;
@@ -26,12 +31,12 @@ position:relative;
 overflow:hidden;
 }
 .card{
-width:300px;
+width:800px;
 height:200px;
 position:absolute;
 text-align:center;
-line-height:200px;
-font-size:45px;
+padding-top: 15px;
+font-size:30px;
 color:#efefef;
 font-family:Montserrat,Arial;
 cursor:pointer;
